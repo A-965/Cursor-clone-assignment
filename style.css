@@ -3,23 +3,23 @@
 body{
 font-family:Inter,sans-serif;
 background:
-radial-gradient(800px 400px at 50% -150px,#2c2619,transparent),
-#121110;
+radial-gradient(800px 400px at 50% -150px,#15120b,transparent),
+#15120b;
 color:#f4f3ef;
 }
 
 .container{width:1280px;margin:auto}
 
 nav {
-  padding: 12px 0;
+  padding: 3px 0;
   position: sticky;
   top: 0;
   z-index: 999;
-  background: #121110;
+  background: #15120b;
 }
 
 
-nav{padding:12px 0}
+nav{padding:3px 0}
 
 .nav{display:flex;align-items:center;justify-content:space-between;}
 
@@ -41,17 +41,18 @@ nav{padding:12px 0}
 background:none;
 border:1px solid #333;
 color:white;
-padding:10px 22px;
+padding:8px 22px;
 border-radius:999px;
 }
 
 .btn{
-margin-top: 20px;
+margin-top: 10px;
 background:white;
 color:black;
-padding:12px 26px;
+padding:8px 26px;
 border-radius:999px;
 border:none;
+margin-bottom: 4px;
 }
 
 .large{padding:14px 36px}
